@@ -5,7 +5,7 @@
         <p>Enter Password: <input type="text"></p>
         <button id="submit" (click) = "loginNow()"> Go </button>
     </div>
-    <div id="movie-card">
-        <app-movie [display] = 'loggedIn' ></app-movie> 
+    <div id="movies">
+        <app-movie [display] = 'loggedIn' [user] = 'userName'></app-movie> 
     </div>
 </div>
