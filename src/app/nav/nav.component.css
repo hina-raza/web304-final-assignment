@@ -1,5 +1,5 @@
 #nav{
-    width: 20%;
+    width: 98.8%;
     height: auto;
     float: left;
     background-color: peachpuff;
@@ -8,14 +8,20 @@
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
+    text-align: right;
 }
 
-li{
-    list-style: none;
-    width: 100%;
+table{
+    width: fit-content;
+    float: right;  
 }
 
-li:hover{
+td{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+td:hover{
     background-color: lightcoral;
 }
 a{

@@ -1,0 +1,26 @@
+#main{
+    width: 100%;
+    float: left;
+    min-height: 500px;
+}
+
+#login{
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+}
+
+.login_input{
+    font-family: inherit;
+    font-size: 30px;
+    float: right;
+}
+
+#submit{
+    margin-top: 30px;
+    width: 120px;
+    height: 60px;
+    font: inherit;
+    border-radius: 20px;
+    cursor: pointer;
+}

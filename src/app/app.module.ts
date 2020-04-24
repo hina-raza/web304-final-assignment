@@ -8,8 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { MovieComponent } from './login/movies/movies.component';
 import { AppFooter } from './footer/footer.component';
 import { AppHeader } from './header/header.component';
-import { AppMain } from './main/main.component';
 import { AppNav } from './nav/nav.component';
+import { AppMovieDescription } from './login/movies/movie-description/movie-description.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +18,8 @@ import { AppNav } from './nav/nav.component';
     MovieComponent,
     AppHeader,
     AppFooter,
-    AppMain,
-    AppNav
+    AppNav,
+    AppMovieDescription
   ],
   imports: [
     BrowserModule,

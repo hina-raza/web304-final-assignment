@@ -3,11 +3,30 @@
     width: 100%;
 }
 
+#user{
+    float:left;
+    width: 95%;
+    background-color: peachpuff;
+    color: darkslategray;
+    padding-left: 64px;
+    padding-right: 20px;
+}
+
+h3{
+    float: right;
+}
+
+h2{
+    color: rgb(138, 196, 204);
+
+}
+
+
+
 #per-movie{
     float: left;
     width: 500px;
-    height: 450px;    
-    overflow: scroll;
+    height: 500px;
     margin: 10px;
     margin-bottom: 20px;
     padding: 10px;
@@ -17,4 +36,43 @@
 li{
     list-style-type: none;
     word-wrap:normal;
+}
+#close-bttn{
+    position: fixed;
+    top: 5px;
+    left: 48%;
+    font: inherit;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+#place{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#display_desc{
+    position: fixed;
+    left: 0px;
+    top: 35px;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0,0,0,0.5);
+}
+#desc{
+    margin: auto;
+    margin-top: 30px;
+    /* float: left; */
+    width: 600px;
+    /* height: 500px; */
+    /* display: none; */
+    margin-bottom: 10px;
+    background-color: snow;
+    font: inherit;
+    text-align: justify;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

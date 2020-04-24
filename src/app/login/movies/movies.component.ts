@@ -12,6 +12,9 @@ export class MovieComponent{
     @Input() display: boolean;
     @Input() user: string;
 
+    detailDesc: boolean = false;
+    text: string = "words";
+    mIndex: number;
     awardDimension: number = 35;
 
     movieList: IMovie[] = [];
@@ -20,5 +23,18 @@ export class MovieComponent{
 
     ngOnInit(){
         this.movieService.getMovies().subscribe(data => this.movieList = data);
+    }
+
+
+    showDesc(ind: number){
+        this.detailDesc = true;
+        this.mIndex  = ind+1;
+        
+    }
+    closeThis(){
+        this.detailDesc = false;
+        document.getElementById("display_desc").style.display = "none";
+
+
     }
 }
