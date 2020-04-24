@@ -1,20 +1,22 @@
 <div id="movies-page" *ngIf = "display">
     <div >{{'Hello ' + user}}</div>
     <div id="display-board">
-        <table id="movie-card">
-            <tr>
-                <td *ngFor = "let movie of movieList">
-                    <ul id="per-movie">
+        <div id="movie-card">
+            
+                <div id="per-movie" *ngFor = "let movie of movieList; let i = index" >
+                    
+                    <ul>                        
                         <li><img [src]="movie.img" [alt] = "movie.name"></li>
-                        <li>{{movie.name}}</li>
-                        <li>{{movie.description}}</li>
+                        <li>{{'Name: ' + movie.name}}</li>
                         <li>{{movie.rating}}</li>
                         <li>{{movie.category}}</li>
                         <li>{{movie.actor}}</li>
                         <li><img [src]="movie.award" alt="award" [style.width.px] = "awardDimension" [style.height.px] = "awardDimension"></li>
+                        <li>{{movie.description}}</li>
                     </ul>
-                </td>
-            </tr>
-        </table>
+                    
+                </div>
+            
+            </div>
     </div>
 </div>
