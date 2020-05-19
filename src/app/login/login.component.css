@@ -23,4 +23,11 @@
     font: inherit;
     border-radius: 20px;
     cursor: pointer;
+    background-color: green;
+    border: darkgreen;
+    color: whitesmoke;
+}
+
+#submit:hover{
+    background-color: rgb(3, 172, 3);
 }

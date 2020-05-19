@@ -12,11 +12,11 @@
                     <ul>                        
                         <li><img [src]="movie.img" [alt] = "movie.name"></li>
                         <li>{{'Name: ' + movie.name}}</li>
-                        <li>{{movie.rating}}</li>
+                        <li><strong>{{movie.rating}}</strong></li>
                         <li>{{movie.category}}</li>
                         <li>{{movie.actor}}</li>
                         <li><img *ngIf = "movie.award" [src]="movie.award" alt="award" [style.width.px] = "awardDimension" [style.height.px] = "awardDimension"></li>
-                        <li><button (click) = "showDesc(i)">Click to View Movie Description</button></li>
+                        <li><button id="descDetail" (click) = "showDesc(i-1)">Movie Description</button></li>
                     </ul>
                         
                 </div>

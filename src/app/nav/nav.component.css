@@ -2,7 +2,7 @@
     width: 98.8%;
     height: auto;
     float: left;
-    background-color: peachpuff;
+    background-color:green;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -22,9 +22,9 @@ td{
     padding-right: 20px;
 }
 td:hover{
-    background-color: lightcoral;
+    background-color: rgb(3, 172, 3);
 }
 a{
     text-decoration: none;
-    color: darkslategray;
+    color: whitesmoke;
 }
